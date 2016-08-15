@@ -12,7 +12,7 @@ This implementation is inspired by [Segmented Controls](https://developer.apple.
 Android-Segmented Library is pushed to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22android-segmented%22), so you just need to add the following dependency to your `build.gradle`.
 
     dependencies {
-        compile 'info.hoang8f:android-segmented:1.0.6'
+        compile 'info.hoang8f:android-segmented:1.0.7'
     }
 
 ####Manually
@@ -33,6 +33,7 @@ Define in xml like this and make sure that the `RadioButton`'s style is: `@style
 <attr name="sc_border_width" format="dimension" />
 <attr name="sc_tint_color" format="color" />
 <attr name="sc_checked_text_color" format="color" />
+<attr name="sc_unchecked_tint_color" format="color" />
 ```
 
 Sample code:
